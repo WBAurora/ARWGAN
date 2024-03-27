@@ -7,7 +7,7 @@ The pre-trained model of [ARWGAN](https://drive.google.com/file/d/1jDpF0LBmuFiy4
 ## Train
 If you need to train ARWGAN from scratch, you should use commond line as following.
 
-      python mian.py new -n name -d data-dir -b batch-size -e epochs  -n noise
+      python mian.py new --name name -d data-dir -b batch-size -e epochs  -n noise
       
 Environmental requirements:
 + Python == 3.7.4; Torch == 1.12.1 + cu102; Torchvision == 0.13.1; PIL == 7.2.0
